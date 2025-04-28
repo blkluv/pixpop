@@ -1,5 +1,5 @@
 ## PixPop
-**"Smile. Snap. Pop!"**
+**"Smile. Snap. Pop!"**  
 Get your own photobooth moment with your favorite artist — *powered by AI magic*!
 
 ## Getting Started
