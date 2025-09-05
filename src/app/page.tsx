@@ -9,13 +9,6 @@ import LoadingSpinner from '@/components/Photobooth/LoadingSpinner';
 import ResultImage from '@/components/Photobooth/ResultImage';
 import { generateImage } from '@/lib/generateImage';
 
-const artistImages: Record<string, string> = {
-  'Lisa Blackpink': 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?crop=faces&fit=crop&w=500&h=500',
-  'Justin Bieber': 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?crop=faces&fit=crop&w=500&h=500',
-  'Selena Gomez': 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?crop=faces&fit=crop&w=500&h=500',
-  'Jungkook BTS': 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=faces&fit=crop&w=500&h=500',
-};
-
 export default function HomePage() {
   const [imageData, setImageData] = useState<string | null>(null);
   const [artist, setArtist] = useState('Lisa Blackpink');
